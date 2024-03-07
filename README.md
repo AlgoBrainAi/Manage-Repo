@@ -31,9 +31,9 @@ Ready to make your mark? Follow the guidelines in the main README file for contr
 
 ## Company Resources 🏢
 
-- **Company Google Drive:** Safeguard your documents, meeting minutes, and backups on the company Google Drive for seamless access and collaboration! 🌐
+- **📁 Company Google Drive:** Safeguard your documents, meeting minutes, and backups on the company Google Drive for seamless access and collaboration! 🌐
   
-- **Company Azure Bucket:** Securely store keys, information variables, and sensitive data in the company Azure bucket! 🔐
+- **🪣 Company Azure Bucket:** Securely store keys, information variables, and sensitive data in the company Azure bucket! 🔐
 
 ## Need Help? 🆘
 
