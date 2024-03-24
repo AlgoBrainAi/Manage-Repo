@@ -28,7 +28,23 @@ Decode activity flow diagrams in diagram.md to visualize the project's workflow 
 
 ## Company Resources 🏢
 
-- **Company Google Bucket:** Store keys, variable info, and sensitive data securely in the company's Google bucket! 🔑+🪣=🔐
+- **Company Google Bucket (CGB):** Securely store keys, variable information, and sensitive data in the company's Google bucket! 🔑+🪣=🔐
+- **MOM (Minutes of Meeting):** Store Minutes of Meeting in a Google Sheet and save the sheet in the respective project folder.
+- **Project File Backups:** Ensure to add weekly backups of project files in the respective project folder in drive for data security and recovery purposes. 📁🔒
+
+Folder Structure for Google Drive:
+
+- **BA (Business Analysis):**
+  - **Documentation:**
+    - **Architecture**
+    - **MOM (Minutes of Meeting)**
+    - **Workflow**
+- **Dev (Development) for backup folder**
+- **Test (Testing)**
+  
+## Update Schedule 📅
+
+All documents should be updated weekly, preferably before Friday's Tech-Talk meeting. Also, make sure to update them whenever there are significant changes or errors have been fixed.
 
 ## Need Help? 🆘
 
