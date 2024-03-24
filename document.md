@@ -2,36 +2,36 @@
 
 Welcome to the Project Documentation Guide! Here's how you can effectively manage and organize your project documents:
 
-## Company Google Drive 🌐
+## Google Docs 🌐
 
-Use the company Google Drive to keep important papers, meeting notes, and backups safe. It's easy to access and collaborate with others!
+Use Google Docs to keep all your project documents organized and accessible. It's a convenient way to collaborate with others and ensure everyone stays updated.
 
 ## Project Documents 📝
 
 ### Definition:
-Explain clearly what the project is about, its goals, and what everyone hopes to achieve.
+Clearly explain what the project is about, its goals, and what everyone hopes to achieve.
 
 ### Objectives:
-Write down the specific goals the project aims to achieve and what results we're looking for.
+List the specific goals the project aims to achieve and the desired outcomes.
 
 ### Scope:
-Define what's included and what's not in the project.
+Define what's included and what's not in the project, setting clear boundaries.
 
 ### Functional Requirements:
-List all the things the project should be able to do, like buttons to click, pages to visit, and information to show.
+Detail all the things the project should be able to do, such as buttons to click, pages to visit, and information to display.
 
 ### Non-Functional Requirements:
-Talk about important aspects like how fast the project should be or how safe the information needs to be.
+Highlight important aspects like speed and data security that the project needs to perform well.
 
 ### System Flow Diagrams:
-Draw pictures showing how information moves through the project, from one screen to another.
+Create diagrams illustrating how information moves through the project, from one screen to another.
 
 ### Data Flow Diagrams:
-Make diagrams showing how information flows from one part of the project to another, like from the user's computer to the project's database.
+Visualize the flow of information within the project, from the user's device to the project's database.
 
 ### Use Case Diagrams:
-Use pictures to show how people will use the project to do things, like logging in or buying something.
+Use diagrams to show how people will interact with the project to accomplish tasks, like logging in or making purchases.
 
-Note: We've made sure all these documents are easy to understand, even for clients and non-technical folks! They're written in simple words and have clear pictures to help explain everything about the project.
+Note: We've ensured all these documents are easy to understand, even for clients and non-technical folks! They're written in simple language and include clear explanations to help everyone understand the project.
 
-Feel free to adapt and customize these documents to fit your project's needs!
+Feel free to adapt and customize these documents to suit your project's needs!
