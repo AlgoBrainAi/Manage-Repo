@@ -42,10 +42,6 @@ Run the project locally on your development machine to test its functionality. T
 npm start
 ```
 
-### Deployment
-
-Deploy your application to a hosting platform or server environment suitable for your project's requirements. This could include cloud platforms like Heroku, AWS, or Google Cloud Platform, or traditional web hosting services.
-
 ## Additional Considerations
 
 1. **Git Ignore**: Utilize a `.gitignore` file to exclude unnecessary files and directories from version control. This helps keep your repository clean and focused on essential project files. For example:
@@ -59,14 +55,14 @@ node_modules/
 
 2. **Environment Variables**: Safeguard sensitive information such as API keys, database credentials, and other configuration settings by storing them in environment variables. This helps protect sensitive data from being exposed in your codebase.
 
-3. **Bucket Access Key**: If your project involves accessing cloud storage buckets or other external resources, ensure you have the necessary access keys or credentials configured securely.
+3. **Models Installation**: If your project uses data models or schemas, ensure they are properly installed and configured according to your project's requirements.
 
-4. **Models Installation**: If your project uses data models or schemas, ensure they are properly installed and configured according to your project's requirements. This may involve running database migrations, setting up schema files, or installing ORM (Object-Relational Mapping) libraries.
+4. **Testing**: Implement testing procedures to ensure the reliability and functionality of your application. This may include unit tests, integration tests, and end-to-end tests.
 
-5. **Deployment Process**: Follow best practices for deploying your specific technology stack. This may involve building your application, configuring server environments, setting up databases, and ensuring proper security measures are in place.
+5. **Documentation**: Keep your project documentation up-to-date to facilitate collaboration and understanding among team members. This may include README files, API documentation, and user guides.
 
-6. **Testing**: Implement testing procedures to ensure the reliability and functionality of your application. This may include unit tests, integration tests, and end-to-end tests.
+6. **Project Roadmap**: Outline the future development plans and goals for your project. This can help potential contributors understand where the project is headed and how they can get involved.
 
-7. **Documentation**: Keep your project documentation up-to-date to facilitate collaboration and understanding among team members. This may include README files, API documentation, and user guides.
+**Note**: Once your changes are ready for deployment, send the updated project folder to the Project Lead for deployment. 
 
 Congratulations! Your project is now ready for use. Remember to keep your documentation updated and follow best practices for ongoing maintenance and development.
