@@ -1,64 +1,100 @@
-# Backend Documentation 🖥️
+### Folder Structure 📂
 
-This document provides a concise overview of key files and functions used in the backend of the project.
+```
+/backend
+│
+├── server.js
+├── routes
+│   └── index.js
+│   └── userRoutes.js
+│   └── postRoutes.js
+├── database
+│   └── index.js
+│   └── userModel.js
+│   └── postModel.js
+├── middleware
+│   └── authMiddleware.js
+│   └── loggingMiddleware.js
+├── controllers
+│   └── userController.js
+│   └── postController.js
+│
+└── utils
+    ├── helperFunctions.js
+    ├── constants.js
+    └── errorHandler.js
+```
 
-## Key Files 📁
+### Coding Standards 📝
 
-### 1. `server.js`
+- **File Naming**: Use camelCase for file names. For example: `server.js`, `userRoutes.js`.
+  
+- **Function Naming**: Use camelCase for function names.
 
-- **Description**: Entry point of the backend application.
-- **Usage**: Initializes and configures the server.
+- **Variable Naming**: Use camelCase for variable names. 
 
-### 2. `routes.js`
+- **Indentation**: Use 2 or 4 spaces for indentation. Choose one and stick to it consistently.
 
-- **Description**: Manages API routes and their corresponding handlers.
-- **Usage**: Defines routes for user data and post creation.
+- **Comments**: Add comments to explain complex logic or functions. Use descriptive names for variables and functions so that comments are minimal.
 
-### 3. `database.js`
+- **Error Handling**: Use try-catch blocks for error handling, and use centralized error handling functions where appropriate.
 
-- **Description**: Handles database connections and queries.
-- **Usage**: Establishes a connection to the MySQL database.
+- **Modularity**: Divide code into modules based on functionality, and use separate files for different concerns (e.g., routes, database connections, middleware) or use OOP concepts for file management.
 
-### 4. `middlewares.js`
+- **Consistency**: Follow consistent patterns throughout the codebase.
 
-- **Description**: Contains middleware functions for request handling.
-- **Usage**: Implements functions like authentication middleware.
+### Key Files 📁
 
-### 5. `controllers.js`
+1. **`server.js`**
+   - **Description**: Entry point of the backend application.
+   - **Usage**: Initializes and configures the server.
 
-- **Description**: Implements business logic for handling user and post data.
-- **Usage**: Contains functions called by route handlers.
+2. **`routes`**
+   - **Description**: Contains route definitions.
+     - **`index.js`**: Entry point for all routes.
+     - **`userRoutes.js`**: Handles user-related routes.
+     - **`postRoutes.js`**: Handles post-related routes.
 
-## Key Functions 🚀
+3. **`database`**
+   - **Description**: Contains database-related files.
+     - **`index.js`**: Handles database connection.
+     - **`userModel.js`**: Defines the user model class.
+     - **`postModel.js`**: Defines the post model class.
 
-### 1. `getUserById(userId)`
+4. **`middleware`**
+   - **Description**: Contains middleware functions.
+     - **`authMiddleware.js`**: Middleware for user authentication.
+     - **`loggingMiddleware.js`**: Middleware for logging requests.
 
-- **Description**: Retrieves user data based on the provided user ID.
-- **Usage**: Used in various routes for fetching user details.
+5. **`controllers`**
+   - **Description**: Contains controller classes.
+     - **`userController.js`**: Controller for user-related operations.
+     - **`postController.js`**: Controller for post-related operations.
 
-### 2. `createPost(postData)`
+### Key Functions 🚀
 
-- **Description**: Creates a new post with the provided data.
-- **Usage**: Called when a user submits a new post.
+1. **`UserModel.getUserById(userId)`**
+   - **Description**: Retrieves user data based on the provided user ID.
+   - **Usage**: Used in various routes for fetching user details.
 
-### 3. `authenticateUser(token)`
+2. **`PostModel.createPost(postData)`**
+   - **Description**: Creates a new post with the provided data.
+   - **Usage**: Called when a user submits a new post.
 
-- **Description**: Verifies the authenticity of a user based on the provided token.
-- **Usage**: Middleware function for route authentication.
+3. **`authMiddleware.authenticateUser(token)`**
+   - **Description**: Verifies the authenticity of a user based on the provided token.
+   - **Usage**: Middleware function for route authentication.
 
-### 4. `updateUserDetails(userId, updatedData)`
+4. **`UserController.updateUserDetails(userId, updatedData)`**
+   - **Description**: Updates user details based on the provided user ID and new data.
+   - **Usage**: Used in routes for handling user profile updates.
 
-- **Description**: Updates user details based on the provided user ID and new data.
-- **Usage**: Used in routes for handling user profile updates.
+5. **`PostController.deletePost(postId)`**
+   - **Description**: Deletes a post based on the provided post ID.
+   - **Usage**: Called when a user chooses to delete a post.
 
-### 5. `deletePost(postId)`
+6. **`errorHandler.handleError(error)`**
+   - **Description**: Centralized function to handle errors in the backend.
+   - **Usage**: Utilized across the application to manage error responses.
 
-- **Description**: Deletes a post based on the provided post ID.
-- **Usage**: Called when a user chooses to delete a post.
-
-### 6. `handleError(error)`
-
-- **Description**: Centralized function to handle errors in the backend.
-- **Usage**: Utilized across the application to manage error responses.
-
-This documentation provides a quick reference for key files and functions in the backend of the project. For more detailed information, refer to the individual files and their inline comments.
+This documentation provides a quick reference for understanding the purpose, usage, and coding standards of each file and function in the backend. For more detailed information, you can refer to the individual files and their inline comments.
