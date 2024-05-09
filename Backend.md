@@ -97,4 +97,91 @@
    - **Description**: Centralized function to handle errors in the backend.
    - **Usage**: Utilized across the application to manage error responses.
 
+### Endpoints 🛣️
+
+#### User Endpoints
+
+- **GET /api/users/:userId**
+  - Description: Get user details by user ID.
+  - Example:
+    - Request: `GET /api/users/123`
+    - Response:
+      ```json
+      {
+        "id": 123,
+        "username": "example_user",
+        "email": "user@example.com",
+        "createdAt": "2024-05-09T12:00:00Z",
+        "updatedAt": "2024-05-09T14:30:00Z"
+      }
+      ```
+
+- **GET /api/users/**
+  - Description: Get details of all users.
+  - Example:
+    - Request: `GET /api/users`
+    - Response:
+      ```json
+      [
+        {
+          "id": 123,
+          "username": "example_user1",
+          "email": "user1@example.com",
+          "createdAt": "2024-05-09T12:00:00Z",
+          "updatedAt": "2024-05-09T14:30:00Z"
+        },
+        {
+          "id": 124,
+          "username": "example_user2",
+          "email": "user2@example.com",
+          "createdAt": "2024-05-09T13:00:00Z",
+          "updatedAt": "2024-05-09T15:30:00Z"
+        }
+      ]
+      ```
+
+#### Post Endpoints
+
+- **GET /api/posts/:postId**
+  - Description: Get post details by post ID.
+  - Example:
+    - Request: `GET /api/posts/456`
+    - Response:
+      ```json
+      {
+        "id": 456,
+        "title": "Example Post",
+        "content": "This is an example post content.",
+        "authorId": 123,
+        "createdAt": "2024-05-09T13:00:00Z",
+        "updatedAt": "2024-05-09T13:30:00Z"
+      }
+      ```
+
+- **GET /api/posts/**
+  - Description: Get details of all posts.
+  - Example:
+    - Request: `GET /api/posts`
+    - Response:
+      ```json
+      [
+        {
+          "id": 456,
+          "title": "Example Post 1",
+          "content": "This is an example post content 1.",
+          "authorId": 123,
+          "createdAt": "2024-05-09T13:00:00Z",
+          "updatedAt": "2024-05-09T13:30:00Z"
+        },
+        {
+          "id": 457,
+          "title": "Example Post 2",
+          "content": "This is an example post content 2.",
+          "authorId": 124,
+          "createdAt": "2024-05-09T14:00:00Z",
+          "updatedAt": "2024-05-09T14:30:00Z"
+        }
+      ]
+      ```
+
 This documentation provides a quick reference for understanding the purpose, usage, and coding standards of each file and function in the backend. For more detailed information, you can refer to the individual files and their inline comments.
