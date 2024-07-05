@@ -2,6 +2,28 @@
 
 Welcome to the Project Repository! This guide serves as your comprehensive resource for navigating through the project and understanding its intricacies.
 
+## GitHub Account Creation and Repository Management
+
+### GitHub Account Creation
+
+1. **Company Email Setup:**
+   - Create a company email ID using the format `<name><surname>.algobrainai@gmail.com`.
+
+2. **GitHub Account Creation:**
+   - Register a GitHub account using the company email ID as the username `<name><surname>-algo`.
+
+### Repository Management
+
+When creating or using a repository, follow these guidelines:
+
+1. **Branch Structure:**
+   - **Master Branch:** 
+     - Deployment branch accessible only to the team lead and project lead.
+   - **Testing Branch:**
+     - Testing branch accessible only to the team lead and testers.
+   - **Dev Branch:**
+     - Development branch accessible to all developers and team leads related to the project.
+
 ## Files Overview
 
 1. [**README.md**](README-sample.md): Dive into README.md, your ultimate guide to understanding the project, including installation instructions, technologies used, APIs, models, and more! 🚀
@@ -51,3 +73,7 @@ All documents should be updated weekly, preferably before Friday's Tech-Talk mee
 If you're stuck, reach out to the project TL for guidance. We're here to help make your journey smooth and enjoyable! 🌈
 
 Happy coding! 🚀
+
+---
+
+Feel free to customize it further based on your specific project needs and guidelines.
