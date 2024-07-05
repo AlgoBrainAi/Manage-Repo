@@ -74,6 +74,3 @@ If you're stuck, reach out to the project TL for guidance. We're here to help ma
 
 Happy coding! 🚀
 
----
-
-Feel free to customize it further based on your specific project needs and guidelines.
