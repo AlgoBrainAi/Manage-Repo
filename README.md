@@ -10,8 +10,11 @@ Welcome to the Project Repository! This guide serves as your comprehensive resou
    - Create a company email ID using the format `<name><surname>.algobrainai@gmail.com`.
 
 2. **GitHub Account Creation:**
-   - Register a GitHub account using the company email ID as the username `<name><surname>-algo`.
+   - Register for a GitHub account using the company email ID, with your username in the format `<name><surname>-algo`.
 
+3. **Workspace Account Creation:**
+   - Contact the company admin to create a Workspace account. Use the company email ID for registration, with your username in the format `<firstname><surname>-algo`. Your initial password will be `<firstname>@algo123`.
+     
 ### Repository Management
 
 When creating or using a repository, follow these guidelines:
